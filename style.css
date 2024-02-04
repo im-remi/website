@@ -26,14 +26,15 @@ body, html {
 }
 
 .inner {
-    border: 1px solid #add1fa;
-    background-color: #525669;
+    border: 1px solid #e7b7d9;
+    background-color: #806f80;
     box-shadow: 0 0 10px rgba(48, 51, 66, 0.5); 
     width: 50%;
     padding: 5%; 
     max-width: 100%;
     margin: 0 auto; 
     border-radius: 30px;
+    opacity: 0.85;
 }
 
 
@@ -60,9 +61,9 @@ body, html {
 }
 
 h1{
-    color: #ffffff;
-    font-weight: 600;
-    font-size: 40pt;
+    color: #fddefc;
+    font-weight: 500;
+    font-size: 30pt;
 }
 
 p{
@@ -129,17 +130,16 @@ transition: 0.4s;
 }
 
 hr {
-    color: #FFFFFF08;
+    color: hsl(318, 92%, 86%);
 }
 #footer{
-    color: #72778d;
+    color: #c793bb;
     font-size: small;
 }
 
-@media(max-width: 550px){
+@media(max-width: 600px){
     .main{
-       max-width: 70%;
-       width: 90%;
+       width: 100%;
        left: 5px;
     }
     .frame{
